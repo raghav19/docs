@@ -1,6 +1,6 @@
 # Repository
 repo_name: intel-secl/intel-secl
-repo_url: https://github.com/intel-secl/intel-secl
+repo_url: https://raghav19.github.io/docs
 site_name: Intel® SecL-DC
 nav: 
   - Home: 'index.md'
