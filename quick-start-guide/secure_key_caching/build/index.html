@@ -211,12 +211,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
       
       <label class="md-nav__link" for="nav-2">
         Quick Start Guide
@@ -269,7 +271,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../docs/quick-start-guide/foundational_workload/build.md" class="md-nav__link">
+      <a href="../../foundational_workload/build/" class="md-nav__link">
         Build
       </a>
     </li>
@@ -281,7 +283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../docs/quick-start-guide/foundational_workload/deploy.md" class="md-nav__link">
+      <a href="../../foundational_workload/deploy/" class="md-nav__link">
         Deploy
       </a>
     </li>
@@ -293,7 +295,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../docs/quick-start-guide/foundational_workload/workflows.md" class="md-nav__link">
+      <a href="../../foundational_workload/workflows/" class="md-nav__link">
         Workflows
       </a>
     </li>
@@ -305,7 +307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../docs/quick-start-guide/foundational_workload/appendix.md" class="md-nav__link">
+      <a href="../../foundational_workload/appendix/" class="md-nav__link">
         Appendix
       </a>
     </li>
@@ -321,12 +323,14 @@
             
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" checked>
       
       <label class="md-nav__link" for="nav-2-2">
         Secure Key Caching
@@ -345,8 +349,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../docs/quick-start-guide/secure_key_caching/pre-reqs.md" class="md-nav__link">
-        Pre-reqs
+      <a href="../pre-reqs/" class="md-nav__link">
+        Pre-requisites
       </a>
     </li>
   
@@ -355,11 +359,49 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../../docs/quick-start-guide/secure_key_caching/build.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Build
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Build
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#secure-key-caching" class="md-nav__link">
+    Secure Key Caching
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -369,7 +411,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../docs/quick-start-guide/secure_key_caching/deploy.md" class="md-nav__link">
+      <a href="../deploy/" class="md-nav__link">
         Deploy
       </a>
     </li>
@@ -381,7 +423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../docs/quick-start-guide/secure_key_caching/workflows.md" class="md-nav__link">
+      <a href="../workflows/" class="md-nav__link">
         Workflows
       </a>
     </li>
@@ -393,7 +435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../docs/quick-start-guide/secure_key_caching/appendix.md" class="md-nav__link">
+      <a href="../appendix/" class="md-nav__link">
         Appendix
       </a>
     </li>
@@ -443,8 +485,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../docs/product-guide/Product Guide - Intel® Security Libraries - Datacenter Foundational Security.md" class="md-nav__link">
-        Foundational & Workload
+      <a href="../../../product-guide/Product%20Guide%20-%20Intel%C2%AE%20Security%20Libraries%20-%20Datacenter%20Foundational%20Security/" class="md-nav__link">
+        Intel® Security Libraries - Datacenter Foundational Security
       </a>
     </li>
   
@@ -455,8 +497,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../docs/product-guide/Product Guide - Intel® Security Libraries - Secure Key Caching.md" class="md-nav__link">
-        Secure Key Caching
+      <a href="../../../product-guide/Product%20Guide%20-%20Intel%C2%AE%20Security%20Libraries%20-%20Secure%20Key%20Caching/" class="md-nav__link">
+        Intel® Security Libraries - Datacenter SGX Attestation Infrastructure and Secure Key Caching
       </a>
     </li>
   
@@ -567,6 +609,41 @@ For Single system model, copy the generated binaries directory to the /root dire
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../pre-reqs/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Pre-requisites
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../deploy/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Deploy
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
